@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url("../images/pattern-background-desktop.svg"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.box {
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    width: 400px;
+    height: 600px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.pic-hero {
+    position: relative;
+    width: 400px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.order-card {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    margin: auto auto;
+    max-width: 300px;
+}
+
+.order-card h1 {
+    padding-bottom: 20px;
+    font-size: 26px;
+    color: hsl(223, 47%, 23%);
+}
+
+.order-card p {
+    font-size:16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.music-plan {
+    position: relative;
+    background-color: hsl(225, 80%, 96%);
+    display:flex;
+    gap: 10px;
+    margin: auto auto;
+    top:60px;
+    max-width: 350px;
+    min-height: 80px;
+    border-radius: 12px;
+    font-size: x-small;
+}
+
+.music-plan img {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 50px;
+}
+
+
+.music-plan h2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.music-plan p {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.music-plan a {
+    position: relative;
+    top: 30px;
+    left: 130px;
+    font-size: 12px;
+    text-decoration-line:underline; 
+    color: hsl(245, 75%, 52%);
+}
+
+.buttons .pay-btn {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 20px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    top: 90px;
+    left: 25px;
+    min-height: 40px;
+    min-width: 350px;
+    color: hsl(225, 100%, 98%);
+    font-family: 'Red Hat Display', sans-serif;   
+}
+
+.cancel-btn {
+    position: relative;    
+    top: 110px;
+    left: 150px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
